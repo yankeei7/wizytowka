@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yana Pastushok — Animacje 3D w Blenderze</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --krem: #F4F1EA;
+      --grafit: #23252D;
+      --pomarancz: #E87D0D;
+      --popiel: #8C8C87;
+      --morska: #14A3A8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Nunito', sans-serif;
+      background: var(--krem);
+      color: var(--grafit);
+      line-height: 1.6;
+      padding: 0 16px 48px;
+    }
+    .container { max-width: 640px; margin: 0 auto; }
+    header { text-align: center; padding: 48px 0 24px; }
+    .avatar {
+      width: 120px; height: 120px;
+      border-radius: 50%;
+      background: var(--pomarancz);
+      margin: 0 auto 16px;
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'Fredoka', sans-serif;
+      font-size: 48px; color: var(--krem);
+    }
+    h1 {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 32px; font-weight: 600;
+      color: var(--grafit);
+    }
+    .tagline {
+      font-size: 16px; color: var(--popiel);
+      margin-top: 4px;
+    }
+    .intro {
+      font-size: 17px; text-align: center;
+      margin: 24px 0 40px;
+      max-width: 520px; margin-left: auto; margin-right: auto;
+    }
+    section { margin-bottom: 40px; }
+    h2 {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 24px; font-weight: 600;
+      color: var(--grafit);
+      margin-bottom: 16px;
+      border-bottom: 3px solid var(--pomarancz);
+      display: inline-block; padding-bottom: 4px;
+    }
+    .work {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+    .work h3 {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 18px; font-weight: 600;
+      margin-bottom: 6px;
+    }
+    .work p { font-size: 15px; color: var(--popiel); margin-bottom: 12px; }
+    .btn {
+      display: inline-block;
+      background: var(--pomarancz);
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 15px;
+      transition: opacity 0.2s;
+    }
+    .btn:hover { opacity: 0.85; }
+    .links { display: flex; flex-direction: column; gap: 12px; }
+    .link-item {
+      display: flex; align-items: center; gap: 12px;
+      background: #fff; padding: 14px 18px;
+      border-radius: 10px; text-decoration: none;
+      color: var(--grafit); font-weight: 600;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .link-item span { font-size: 20px; }
+    .contact { text-align: center; font-size: 15px; color: var(--popiel); }
+    .contact a { color: var(--pomarancz); text-decoration: none; font-weight: 600; }
+    footer {
+      text-align: center; margin-top: 48px;
+      font-size: 13px; color: var(--popiel);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar">K</div>
+      <h1>Yana Pastushok</h1>
+      <p class="tagline">Krótkie animacje 3D w Blenderze</p>
+    </header>
+
+    <p class="intro">
+      Tworzę krótkie animacje 3D w Blenderze krok po kroku — bez żargonu, dla tych, którzy myślą, że 3D jest trudne.
+    </p>
+
+    <section>
+      <h2>Moje prace</h2>
+
+      <div class="work">
+        <h3>Kostek — obraz wzorcowy</h3>
+        <p>Postać maskotki mojej marki, stworzona w Gemini według szablonu z zajęć 2–3.</p>
+        <a class="btn" href="https://drive.google.com/file/d/1WZsCthE-_Tlx-LcE5SX0l9Ws3lVvdKOq/view?usp=sharing" target="_blank" rel="noopener">Zobacz pełną wersję</a>
+      </div>
+
+      <div class="work">
+        <h3>Karuzela „3D nie jest trudne"</h3>
+        <p>5 slajdów krok po kroku: pusta scena → efekt. Szablon z zajęć 4.</p>
+        <a class="btn" href="https://drive.google.com/file/d/1O_-yqBMMAKH5vZ27g0JSsQneN1sWhzd1/view?usp=drive_link" target="_blank" rel="noopener">Zobacz pełną wersję</a>
+      </div>
+
+      <div class="work">
+        <h3>Profil TikTok @yanapastushok</h3>
+        <p>Krótkie animacje 3D w Blenderze, bez żargonu.</p>
+        <a class="btn" href="https://drive.google.com/file/d/19NhY6gACISadRtd9q4RZetMAvHe59z45/view?usp=drive_link" target="_blank" rel="noopener">Zobacz profil</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Gdzie mnie znajdziesz</h2>
+      <div class="links">
+        <a class="link-item" href="https://tiktok.com/@yanapastushok" target="_blank" rel="noopener">
+          <span>🎵</span> TikTok — @yanapastushok
+        </a>
+        <!-- Dodaj Instagram, gdy stworzysz profil:
+        <a class="link-item" href="LINK_INSTAGRAM" target="_blank" rel="noopener">
+          <span>📸</span> Instagram — @twoj_nick
+        </a>
+        -->
+      </div>
+    </section>
+
+    <section>
+      <h2>Kontakt</h2>
+      <p class="contact">
+        Napisz do mnie: <a href="mailto:yanapastushok51@gmail.com">yanapastushok51@gmail.com</a><br>
+        albo w DM na TikToku.
+      </p>
+    </section>
+
+    <footer>
+      © Yana Pastushok · Animacje 3D w Blenderze
+    </footer>
+  </div>
+</body>
+</html>
